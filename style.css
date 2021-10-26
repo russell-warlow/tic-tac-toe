@@ -1,0 +1,23 @@
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+
+div#grid > div {
+    /*
+     * Align width calc em and margin em
+     * (width calc em = margin em *2)
+     */
+    box-sizing: border-box;
+    width: calc(100% / 3 - 0.2em);
+    height: calc(100% / 3 - 0.2em);
+    background-color: blueviolet;
+    margin: 0.1em;
+    text-align: center;
+    vertical-align: middle;
+    font-size: xx-large;
+    color:dodgerblue;
+    font-weight: 900;
+  }
